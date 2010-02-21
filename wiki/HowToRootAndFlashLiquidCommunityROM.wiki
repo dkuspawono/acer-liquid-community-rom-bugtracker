@@ -1,0 +1,52 @@
+#summary This Wiki contains a How-To guide
+
+= Tutorial to Root =
+
+*Requirements:*
+
+http://www.megaupload.com/?d=5RC8AM1F ACER_LiquidE...bin
+
+http://www.megaupload.com/?d=E5PTHL3O Acer Liquid drivers for Windows
+
+http://www.megaupload.com/?d=EF2QNANO Acer A1 Download Tool
+
+http://www.megaupload.com/?d=DRU1JIWI Superboot
+
+Our latest ROM, look for it here: 
+http://code.google.com/p/acer-liquid-community-rom-bugtracker/downloads/list
+
+*1)*
+Unpack the drivers.
+
+If you have a 32-Bit version of Windows, go to the folder x86, if you have a 64-Bit version, go to the x64 folder.
+
+Then run the setup.exe and follow the instructions.
+
+*2)*
+Unpack the Acer A1 Tool.
+
+Run the ACER Download Tool. Click "Browse" and select the downloaded ACER_LiquidE...bin.
+Attach your Acer Liquid and press Start. It should start flashing the stock Éclair image.
+
+Don't interrupt this process!!
+
+*3)*
+Unpack the Superboot.zip.
+
+Run the Superboot-<Your OS>.bat or .sh.
+
+This will install the root app and a custom recovery and reboot your device.
+
+Wait until it's booted and then put our latest ROM .zip into the root of the SDCard.
+
+Double-Click the file "Reboot to recovery.bat".
+
+Then wait until the device is rebooted into recovery.
+
+Navigate to "apply any .zip from SD" and push the menu key, and then choose the ROM and press menu again.
+
+Wait for the installation to finish.
+
+Reboot.
+
+Congrats, you're done!
