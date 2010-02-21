@@ -1,4 +1,5 @@
 #summary This Wiki contains a How-To guide
+#labels Featured
 
 = Tutorial to Root =
 
