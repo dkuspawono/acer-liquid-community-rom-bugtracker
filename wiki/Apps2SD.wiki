@@ -1,5 +1,5 @@
 #labels Featured
-#How to activate/deactivate Apps2SD on LCR
+==How to activate/deactivate Apps2SD on LCR==
 
 = Apps2SD =
 
@@ -10,7 +10,7 @@ YOU MUST HAVE A EXT3 PARTITION ON YOUR SDCARD FOR THIS TO WORK! RECOMMENDED TO B
 
 ----
 
-To activate:
+===To activate:===
 
 *adb remount
 
@@ -20,7 +20,7 @@ To activate:
 
 ----
 
-To deactivate:
+===To deactivate:===
 
 *adb remount
 
