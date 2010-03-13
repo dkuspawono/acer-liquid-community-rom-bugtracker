@@ -1,0 +1,35 @@
+#summary This Wiki page describes how you can take a log easily
+#labels Featured
+
+= Requirements =
+
+LCR 1.1.2+
+
+
+= How To =
+
+The best way to make a good log, download Terminal Emulator from the Market and start it.
+Then enter the following lines. 
+Press enter after each line!
+
+(_*Always without the -->...*_)
+---------------------------------------------------------------------------------------
+
+su
+
+log-debug start --> to activate logging
+
+*OR*
+
+log-debug stop --> to deactivate logging
+
+*OR*
+
+log-debug status --> to display current logging status
+
+---------------------------------------------------------------------------------------
+
+The logs will show up on the SDCard as debug_....log.
+
+Upload them zipped together and attach them to your bugreport.
+Thanks :)
