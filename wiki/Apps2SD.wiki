@@ -3,8 +3,14 @@
 
 = IMPORTANT NOTE=
 
-Until LCR 1.2.2, there was a bug when usings apps2 sd and there were not a least one app in app and one in app-private. This will be fixed soon.
-Please Be patience
+{{{
+Until LCR 1.2.2 (included), there is a bug when usings apps2 sd and there were not a least one app in app and one in app-private. This will be fixed soon. I am currently working on
+Please Be patient
+
+Thank you
+
+Malez
+}}}
 
 == Introduction ==
 
