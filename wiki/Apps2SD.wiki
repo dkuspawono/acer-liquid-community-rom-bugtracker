@@ -1,6 +1,11 @@
 #labels Featured
 =How to activate/deactivate Apps2SD on LCR=
 
+= IMPORTANT NOTE=
+
+Until LCR 1.2.2, there was a bug when usings apps2 sd and there were not a least one app in app and one in app-private. This will be fixed soon.
+Please Be patience
+
 == Introduction ==
 
 apps2sd offers the possibility to store your application on you sdcard instead or you phone internal memory.
@@ -10,6 +15,8 @@ The main advantage of this method is to increase the number of apps you can inst
 If you don't have space problems on you phone or don't frequently flash your phone, you don't really need this. You must know that if your apps are stored on sd, and the sd card is not present on boot, you will not have any apps. Fortunatly this case is now catched and the phone will boot !
 
 == Requirements ==
+
+LCR 1.2.3+ 
 
 You must have an ext2/ext3 partition on your sd card for this to work. If that is not the case, please create an ext parition on your sdcard. This could me done in recovery mode. 
 
