@@ -18,7 +18,9 @@ You must have an ext2/ext3 partition on your sd card for this to work. If that i
 *All operations described here must be done as root in a terminal emulator. *
 
 So the first step is to launch "Terminal Emulator" application or log via adb and then enter
-{{su}}
+{{{
+su
+}}}
 
 === Enable apps 2 sd ===
 
