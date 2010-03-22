@@ -1,35 +1,73 @@
-#summary This Wiki page describes how you can take a log easily
+#summary This Wiki page describes how you can take a log easily in order to provide us for future fix.
 #labels Featured
 
 = Requirements =
 
-LCR 1.1.2+
+LCR 1.2+
+
+= log-debug explanation =
+
+log-debug is  a script that will log all activity on system/radio/event in 3 differents files on you sdcard.
+
+The script requires to be launched as root, so su is needed.
+
+Here is the log debug usage :
+
+ * log-debug start  --> to activate logging
+ * log-debug stop   --> to stop logging
+ * log-debug status --> to know if logging is running
+
+You can also use the short usage :
+
+ * l on  --> to activate logging
+ * l off --> to stop logging
+ * l s   --> to know if logging is running
+
 
 
 = How To =
 
-The best way to make a good log, download Terminal Emulator from the Market and start it.
-Then enter the following lines. 
+== Access terminal ==
+
+ * Start Terminal Emulator from your running phone
+ * Then enter the following lines. 
 Press enter after each line!
 
-(_*Always without the -->...*_)
----------------------------------------------------------------------------------------
+== Enabling log ==
 
+{{{
 su
+log-debug start
+}}}
 
-log-debug start --> to activate logging
+or 
 
-*OR*
+{{{
+su
+l on
+}}}
 
-log-debug stop --> to deactivate logging
+== Disabling log ==
 
-*OR*
+{{{
+su
+log-debug stop
+}}}
 
-log-debug status --> to display current logging status
+or 
 
----------------------------------------------------------------------------------------
+{{{
+su
+l off
+}}}
 
-The logs will show up on the SDCard as debug_....log.
+== Providing logs ==
+
+The logs will show up on the SDCard root as :
+
+ * debug_events.log
+ * debug_main.log
+ * debug_radio.log
 
 Upload them zipped together and attach them to your bugreport.
 Thanks :)
