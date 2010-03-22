@@ -1,29 +1,117 @@
 #labels Featured
-==How to activate/deactivate Apps2SD on LCR==
+=How to activate/deactivate Apps2SD on LCR=
 
-= Apps2SD =
+== Introduction ==
 
-==YOU MUST HAVE A EXT3 PARTITION ON YOUR SDCARD FOR THIS TO WORK! RECOMMENDED TO BE 500MB EXT3!==
+apps2sd offers the possibility to store your application on you sdcard instead or you phone internal memory.
+
+The main advantage of this method is to increase the number of apps you can install on your phone by storing then a huge partition and SD card (generally 500 Mo). Moreover if you frequently flash roms that wip your data partition, your apps will keep in a safe place on SD and you will just have to reactivate apps2sd after installation to restore your apps.
+
+If you don't have space problems on you phone or don't frequently flash your phone, you don't really need this. You must know that if your apps are stored on sd, and the sd card is not present on boot, you will not have any apps. Fortunatly this case is now catched and the phone will boot !
+
+== Requirements ==
+
+You must have an ext2/ext3 partition on your sd card for this to work. If that is not the case, please create an ext parition on your sdcard. This could me done in recovery mode. 
+
+== How to ==
+
+*All operations described here must be done as root in a terminal emulator. *
+
+So the first step is to launch "Terminal Emulator" application or log via adb and then enter
+{{su}}
+
+=== Enable apps 2 sd ===
+
+This will move your apps from phone to sd. 
+Apps already present on sd will be overwritten by those on phone.
+
+{{{
+apps2sd on
+}}}
+
+Then you will need to reboot your phone.
+On reboot system will automatically move your apps to the sdcard, then it will reboot. That's why you will see a fixed X, then the moving X for 2 seconds, and then acer logo.
 
 
-= How to activate and diactivate =
+=== Disable apps 2 sd ===
 
-----
+This will move your apps from sd card back to your phone internal memory.
+Apps already present on phone will be overwritten by those on sd
 
-===To activate:===
+{{{
+apps2sd off
+}}}
 
-*adb remount
+Then you will need to reboot your phone.
+On reboot system will automatically move your apps from the sdcard back to phone, then it will reboot. That's why you will see a fixed X, then the moving X for 2 seconds, and then acer logo.
 
-*adb shell apps2sd on
 
-*adb reboot
+=== Where are my apps stored / What will you do ? ===
 
-----
+This will describe you where are currently your apps stored and will display what are the pending operations.
 
-===To deactivate:===
 
-*adb remount
+{{{
+apps2sd status
+}}}
 
-*adb shell apps2sd off
+will display something like
 
-*adb reboot
+{{{
+=== APP2SD Status ===
+
+ext partition is present on your SDCARD
+
+/data/app is stored on your phone
+/data/app-private is stored on your phone
+
+Pending operations :
+
+-rwxrw-rw-    1 0        0              30 Mar 22 10:19 move_apps2sd
+Reboot to apply
+}}}
+
+In this example our apps are stored on phone and will be moved to sd on next boot.
+
+
+== FAQ ==
+
+=== My apps are on my sd, my sd is borken/removed, what should I do ? ===
+
+If you boot your phone without any sd and your apps are stored on sd, the system will detect it and will perform needed actions. 
+
+You will be able to boot but without any of your apps. On next boot, system will automaticaly try to reactivate apps2sd.
+
+If that's not the case, you can manually use "apps2sd on" when you will have replaced a correct sdcard.
+
+=== How to cancel a pending operation ? ===
+
+If you have a pending operation and you want to cancel it, you can use the rm_runOnce command like this :
+
+{{{
+rm_runOnce pendingOperationName
+}}}
+
+For exemple
+
+{{{
+=== APP2SD Status ===
+
+ext partition is present on your SDCARD
+
+/data/app is stored on your phone
+/data/app-private is stored on your phone
+
+Pending operations :
+
+-rwxrw-rw-    1 0        0              30 Mar 22 10:19 move_apps2sd
+Reboot to apply
+}}}
+
+To cancel the move of apps to sd use
+
+{{{
+rm_runOnce move_apps2sd
+}}}
+
+If you place any apps2sd order (on or off), it will automatically replace any older one.
