@@ -1,9 +1,9 @@
 #summary This Wiki contains a How-To guide
 #labels Featured
 
-= Tutorial to Root =
+= Tutorial to install community rom =
 
-*Requirements:*
+== Requirements: ==
 
 http://www.megaupload.com/?d=5RC8AM1F ACER_LiquidE...bin
 
@@ -15,6 +15,10 @@ http://rapidshare.com/files/362960867/Superboot.zip Superboot
 
 Our latest ROM, look for it here: 
 http://code.google.com/p/acer-liquid-community-rom-bugtracker/downloads/list
+
+== How to install ==
+
+=== Your current liquid android version is 1.6 (not 2.1) ===
 
 *1)*
 Unpack the drivers.
@@ -31,23 +35,33 @@ Attach your Acer Liquid and press Start. It should start flashing the stock Écl
 
 Don't interrupt this process!!
 
-*3)*
+
+=== Your current version is android 2.1 or you have just followed the previous chapter ===
+
+*1)*
 Unpack the Superboot.zip.
 
-Run the Superboot-<Your OS>.bat or .sh.
+*2)* Run the "Superboot.bat" (windows) or "sh Superboot.sh" (linux)
 
 This will install the root app and a custom recovery and reboot your device.
 
-Wait until it's booted and then put our latest ROM .zip into the root of the SDCard.
+*3)* Wait until it's booted and then put our latest ROM .zip into the root of the SDCard.
 
-Double-Click the file "Reboot to recovery.bat".
+*4)* Reboot in recovery mode.
+Double-Click the file "Reboot to recovery.bat" (windows) or lanuch "sh Reboot to recovery.bat" (windows), or use "adb reboot recovery" (both)
 
 Then wait until the device is rebooted into recovery.
 
-Navigate to "apply any .zip from SD" and push the menu key, and then choose the ROM and press menu again.
+*5)* Navigate to "apply any .zip from SD" and push the menu key, and then choose the ROM and press menu again.
 
 Wait for the installation to finish.
 
 Reboot.
 
 Congrats, you're done!
+
+== Factory reset / Data wipe ==
+
+In case you wipe your data parition (factory reset) you need to reinstall the rom update.zip file. Just apply the zip file in recovery mode.
+
+
