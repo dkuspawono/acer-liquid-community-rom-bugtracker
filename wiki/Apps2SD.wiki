@@ -29,6 +29,8 @@ So the first step is to launch "Terminal Emulator" application or log via adb an
 su
 }}}
 
+Note that, after a change in location of apps, apps list will be refreshed in apps menu on the first open of the menu.
+
 === Enable apps 2 sd ===
 
 This will move your apps from phone to sd. 
@@ -85,7 +87,7 @@ In this example our apps are stored on phone and will be moved to sd on next boo
 
 == FAQ ==
 
-=== My apps are on my sd, my sd is borken/removed, what should I do ? ===
+=== My apps are on my sd, my sd is broken/removed, what should I do ? ===
 
 If you boot your phone without any sd and your apps are stored on sd, the system will detect it and will perform needed actions. 
 
