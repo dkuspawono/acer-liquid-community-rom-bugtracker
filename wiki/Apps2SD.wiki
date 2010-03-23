@@ -16,7 +16,7 @@ Malez
 
 apps2sd offers the possibility to store your application on you sdcard instead or you phone internal memory.
 
-The main advantage of this method is to increase the number of apps you can install on your phone by storing then a huge partition and SD card (generally 500 Mo). Moreover if you frequently flash roms that wip your data partition, your apps will keep in a safe place on SD and you will just have to reactivate apps2sd after installation to restore your apps.
+The main advantage of this method is to increase the number of apps you can install on your phone by storing then a huge partition and SD card (generally 500 Mo). Moreover if you frequently flash roms that wipe your data partition, your apps will keep in a safe place on SD and you will just have to reactivate apps2sd after installation to restore your apps.
 
 If you don't have space problems on you phone or don't frequently flash your phone, you don't really need this. You must know that if your apps are stored on sd, and the sd card is not present on boot, you will not have any apps. Fortunatly this case is now catched and the phone will boot !
 
@@ -73,6 +73,8 @@ On reboot system will automatically move your apps from the sdcard back to phone
 apps2sd off -d
 }}}
 
+*Note* : First boot will ta a long time because, dalvik-cache will be rebuild
+
 === Where are my apps stored / What will you do ? ===
 
 This will describe you where are currently your apps stored and will display what are the pending operations.
@@ -113,6 +115,11 @@ If you boot your phone without any sd and your apps are stored on sd, the system
 You will be able to boot but without any of your apps. On next boot, system will automaticaly try to reactivate apps2sd.
 
 If that's not the case, you can manually use "apps2sd on" when you will have replaced a correct sdcard.
+
+
+=== I have some application crash after restoring to phone ===
+
+This king of little problems can happen. In this cas, uninstall and reinstall the application.
 
 === How to cancel a pending operation ? ===
 
