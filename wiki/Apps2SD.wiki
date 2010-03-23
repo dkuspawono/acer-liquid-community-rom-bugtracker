@@ -49,6 +49,12 @@ apps2sd on
 Then you will need to reboot your phone.
 On reboot system will automatically move your apps to the sdcard, then it will reboot. That's why you will see a fixed X, then the moving X for 2 seconds, and then acer logo.
 
+*Note* : by default dalvik cache is not moved to sd for performance. 
+If you want to move the davlik-cache to sd, use
+{{{
+apps2sd on -d
+}}}
+
 
 === Disable apps 2 sd ===
 
@@ -62,6 +68,10 @@ apps2sd off
 Then you will need to reboot your phone.
 On reboot system will automatically move your apps from the sdcard back to phone, then it will reboot. That's why you will see a fixed X, then the moving X for 2 seconds, and then acer logo.
 
+*Restore dalvik-cache to phone* : if you wnat to restore ONLY the dalvik-cache to your internal phone memory, use
+{{{
+apps2sd off -d
+}}}
 
 === Where are my apps stored / What will you do ? ===
 
@@ -79,13 +89,16 @@ will display something like
 
 ext partition is present on your SDCARD
 
-/data/app is stored on your phone
-/data/app-private is stored on your phone
+/data/app is stored on your sdcard
+/data/app-private is stored on your sdcard
+dalvik-cache is on your sdcard
 
 Pending operations :
 
--rwxrw-rw-    1 0        0              30 Mar 22 10:19 move_apps2sd
+-rwxrw-rw-    1 0        0              31 Mar 23 09:57 move_sd2apps
 Reboot to apply
+#
+
 }}}
 
 In this example our apps are stored on phone and will be moved to sd on next boot.
@@ -93,7 +106,7 @@ In this example our apps are stored on phone and will be moved to sd on next boo
 
 == FAQ ==
 
-=== My apps are on my sd, my sd is broken/removed, what should I do ? ===
+=== My apps/dalvik are on my sd, my sd is broken/removed, what should I do ? ===
 
 If you boot your phone without any sd and your apps are stored on sd, the system will detect it and will perform needed actions. 
 
@@ -106,7 +119,7 @@ If that's not the case, you can manually use "apps2sd on" when you will have rep
 If you have a pending operation and you want to cancel it, you can use the rm_runOnce command like this :
 
 {{{
-rm_runOnce pendingOperationName
+apps2sd cancel
 }}}
 
 For exemple
@@ -128,7 +141,7 @@ Reboot to apply
 To cancel the move of apps to sd use
 
 {{{
-rm_runOnce move_apps2sd
+apps2sd cancel
 }}}
 
 If you place any apps2sd order (on or off), it will automatically replace any older one.
