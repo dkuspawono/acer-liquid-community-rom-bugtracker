@@ -152,3 +152,8 @@ apps2sd cancel
 }}}
 
 If you place any apps2sd order (on or off), it will automatically replace any older one.
+
+=== It a long long time since I am waiting for my phone to boot and I have an error message in logcat telling me system will crash when booting ===
+
+This could happen if something goes wrong when restoring to phone. For exemple you have 1Go of apps and you try to restore them on phone, oups. Try this
+{{{ adb fixboot.sh }}}
