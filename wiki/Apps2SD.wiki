@@ -50,7 +50,7 @@ Then you will need to reboot your phone.
 On reboot system will automatically move your apps to the sdcard, then it will reboot. That's why you will see a fixed X, then the moving X for 2 seconds, and then acer logo.
 
 *Note* : by default dalvik cache is not moved to sd for performance. 
-If you want to move the davlik-cache to sd, use
+If you want to move the davlik-cache to sd too, use
 {{{
 apps2sd on -d
 }}}
