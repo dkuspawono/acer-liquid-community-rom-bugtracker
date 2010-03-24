@@ -155,9 +155,9 @@ In this example our apps are stored on phone and will be moved to sd on next boo
 
 If you boot your phone without any sd and your apps are stored on sd, the system will detect it and will perform needed actions. 
 
-You will be able to boot but without any of your apps. On next boot, system will automaticaly try to reactivate apps2sd.
+You will be able to boot but without any of your apps. 
 
-If that's not the case, you can manually use "apps2sd on" when you will have replaced a correct sdcard.
+When you have restored your SD card, you can simply use "apps2sd on" or "apps2sd on -d" to reactivate.
 
 
 === I have some application crash after a move ===
