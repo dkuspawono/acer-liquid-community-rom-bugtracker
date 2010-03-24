@@ -16,7 +16,7 @@ Malez
 
 == Introduction ==
 
-apps2sd offers the possibility to store your application on you sdcard instead or you phone internal memory.
+apps2sd offers the ability to store your application on you sdcard instead or you phone internal memory.
 
 The main advantage of this method is to increase the number of apps you can install on your phone by storing then a huge partition and SD card (generally 500 Mo). Moreover if you frequently flash roms that wipe your data partition, your apps will keep in a safe place on SD and you will just have to reactivate apps2sd after installation to restore your apps.
 
