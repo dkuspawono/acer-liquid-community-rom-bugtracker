@@ -62,6 +62,6 @@ Congrats, you're done!
 
 == Factory reset / Data wipe ==
 
-In case you wipe your data parition (factory reset) you need to reinstall the rom update.zip file. Just apply the zip file in recovery mode.
+In case of crash while accessing sychronization settings, you need to do a Factory reset.
 
-
+In case you wipe your data partition (factory reset) you need to reinstall the rom update.zip file. Just apply the zip file in recovery mode.
