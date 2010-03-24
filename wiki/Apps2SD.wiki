@@ -28,6 +28,23 @@ LCR 1.2.3+
 
 You must have an ext2/ext3 partition on your sd card for this to work. If that is not the case, please create an ext parition on your sdcard. This could be done in recovery mode. 
 
+== General usage ==
+
+{{{
+Usage :
+apps2sd version 2.2
+Needs 'on' 'off' 'status' or 'cancel' as argument.
+apps2sd on/off [-d] [-e EXTRA]/status/cancel
+apps2sd on -d will also move dalvik-cache to sd
+apps2sd off will restore apps and dalvik to phone
+apps2sd off -d will ONLY restore dalvik-cache to phone
+-e EXTRA will check if there will be a leat EXTRA Kb of free space after move
+by default EXTRA=20Mb
+apps2sd cancel will cancel pending operations
+
+}}}
+
+
 == How to ==
 
 *All operations described here must be done as root in a terminal emulator. *
