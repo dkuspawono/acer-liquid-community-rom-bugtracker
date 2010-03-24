@@ -7,6 +7,8 @@
 Until LCR 1.2.2 (included), there is a bug when usings apps2 sd and there were not a least one app in app and one in app-private. This will be fixed soon. I am currently working on
 Please Be patient
 
+Moreover next version will include free space control before operation.
+
 Thank you
 
 Malez
@@ -24,7 +26,7 @@ If you don't have space problems on you phone or don't frequently flash your pho
 
 LCR 1.2.3+ 
 
-You must have an ext2/ext3 partition on your sd card for this to work. If that is not the case, please create an ext parition on your sdcard. This could me done in recovery mode. 
+You must have an ext2/ext3 partition on your sd card for this to work. If that is not the case, please create an ext parition on your sdcard. This could be done in recovery mode. 
 
 == How to ==
 
@@ -55,6 +57,18 @@ If you want to move the davlik-cache to sd too, use
 apps2sd on -d
 }}}
 
+By default apps2sd will check wether there will be enough space on target after operation. By default operation will be done only if there will be an *extra free space* of 20Mb on target.
+You can change this value using the -e EXTRA option.
+EXTRA must be then number of Kb you want to be free after operation
+
+For exemple :
+
+{{{
+apps2sd on -e 10000
+}}}
+
+Will move apps to the sd card only if there is at least 10000 Kb free space after operation.
+
 
 === Disable apps 2 sd ===
 
@@ -74,6 +88,18 @@ apps2sd off -d
 }}}
 
 *Note* : First boot will ta a long time because, dalvik-cache will be rebuild
+
+By default apps2sd will check wether there will be enough space on target after operation. By default operation will be done only if there will be an *extra free space* of 20Mb on target.
+You can change this value using the -e EXTRA option.
+EXTRA must be then number of Kb you want to be free after operation
+
+For exemple :
+
+{{{
+apps2sd off -e 10000
+}}}
+
+Will move apps to the sd card only if there is at least 10000 Kb free space after operation.
 
 === Where are my apps stored / What will you do ? ===
 
