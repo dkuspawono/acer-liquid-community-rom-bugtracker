@@ -59,7 +59,7 @@ apps2sd on -d
 
 By default apps2sd will check wether there will be enough space on target after operation. By default operation will be done only if there will be an *extra free space* of 20Mb on target.
 You can change this value using the -e EXTRA option.
-EXTRA must be then number of Kb you want to be free after operation
+EXTRA must be the number of Kb you want to be free after operation
 
 For exemple :
 
@@ -91,7 +91,7 @@ apps2sd off -d
 
 By default apps2sd will check wether there will be enough space on target after operation. By default operation will be done only if there will be an *extra free space* of 20Mb on target.
 You can change this value using the -e EXTRA option.
-EXTRA must be then number of Kb you want to be free after operation
+EXTRA must be the number of Kb you want to be free after operation
 
 For exemple :
 
@@ -101,7 +101,7 @@ apps2sd off -e 10000
 
 Will move apps back to phone only if there is at least 10000 Kb free space after operation.
 
-=== Where are my apps stored / What will you do ? ===
+=== Where are my apps stored / What are pending operations ? ===
 
 This will describe you where are currently your apps stored and will display what are the pending operations.
 
