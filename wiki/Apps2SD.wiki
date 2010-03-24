@@ -4,6 +4,8 @@
 = IMPORTANT NOTE=
 
 It is always safer to do a nandroid backup before applying any change on your system
+Operation can take a very long time. While boot animation is still moving, don't worry. See last question for infos.
+
 
 {{{
 Until LCR 1.2.2 (included), there is a bug when usings apps2 sd and there were not a least one app in app and one in app-private. This will be fixed soon. I am currently working on
@@ -200,5 +202,7 @@ If you place any apps2sd order (on or off), it will automatically replace any ol
 
 === It a long long time since I am waiting for my phone to boot and I have an error message in logcat telling me system will crash when booting ===
 
-This could happen if something goes wrong when restoring to phone. For exemple you have 1Go of apps and you try to restore them on phone, oups. Try this
+As long as you have standard messages in {{adb logcat}} you don't have to worry. Operation can take a long time. 
+
+If something goes wrong when restoring to phone. You will se a special message telling "system will crash". To fix this situation, try this command
 {{{ adb fixboot.sh }}}
