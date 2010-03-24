@@ -99,7 +99,7 @@ For exemple :
 apps2sd off -e 10000
 }}}
 
-Will move apps to the sd card only if there is at least 10000 Kb free space after operation.
+Will move apps back to phone only if there is at least 10000 Kb free space after operation.
 
 === Where are my apps stored / What will you do ? ===
 
