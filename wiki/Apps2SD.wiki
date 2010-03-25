@@ -185,7 +185,7 @@ If you boot your phone without any sd and your apps are stored on sd, the system
 
 You will be able to boot but without any of your apps. 
 
-When you have restored your SD card, you can simply use "apps2sd on" or "apps2sd on" with appropriate options to reactivate.
+When you have restored your SD card, you can simply use "apps2sd on" (you don't need to add any other option). Reboot and control with apps2sd status.
 
 
 === I have some application crash after a move ===
