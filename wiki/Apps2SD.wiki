@@ -3,7 +3,8 @@
 
 = IMPORTANT NOTE=
 
-It is always safer to do a *nandroid backup* before applying any on these operations on your system.
+*It is always safer to do a *nandroid backup (with ext parition)* before applying any on these operations on your system.*
+
 Operations can take a very long time. While boot animation is still moving, don't worry. See last question for infos.
 
 You must at least shutdown the phone once beetween 2 operations.
