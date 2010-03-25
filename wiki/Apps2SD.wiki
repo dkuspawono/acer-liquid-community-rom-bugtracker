@@ -3,8 +3,8 @@
 
 = IMPORTANT NOTE=
 
-It is always safer to do a nandroid backup before applying any change on your system
-Operation can take a very long time. While boot animation is still moving, don't worry. See last question for infos.
+It is always safer to do a *nandroid backup* before applying any on these operations on your system.
+Operations can take a very long time. While boot animation is still moving, don't worry. See last question for infos.
 
 
 {{{
@@ -56,12 +56,13 @@ apps2sd cancel will cancel pending operations
 
 *All operations described here must be done as root in a terminal emulator. *
 
-So the first step is to launch "Terminal Emulator" application or log via adb and then enter
+So the first step is to launch "Terminal Emulator" application and then enter
 {{{
 su
 }}}
+or log via adb shell
 
-Note that, after a change in location of apps, apps list will be refreshed in apps menu on the first open of the menu.
+*_Note that, after a change in location of apps, apps list will be refreshed in apps menu on the first open of the menu. Dalvik cache will also be rebuild. So first boot takes a long time._*
 
 === Enable apps 2 sd ===
 
