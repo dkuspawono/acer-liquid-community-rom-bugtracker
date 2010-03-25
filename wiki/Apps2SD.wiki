@@ -87,6 +87,10 @@ If you want to move the data to sd too, use
 apps2sd on --data
 }}}
 
+So if you want to move apps/data and dalvick to sd use
+{{{
+apps2sd on --data --dalvik
+}}}
 
 By default apps2sd will check wether there will be enough space on target after operation. By default operation will be done only if there will be an *extra free space* of 20Mb on target.
 You can change this value using the -e EXTRA option.
