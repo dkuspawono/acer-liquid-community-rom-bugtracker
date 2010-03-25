@@ -87,7 +87,7 @@ If you want to move the data to sd too, use
 apps2sd on --data
 }}}
 
-So if you want to move apps/data and dalvick to sd use
+So if you want to move apps, data and dalvik to sd use
 {{{
 apps2sd on --data --dalvik
 }}}
