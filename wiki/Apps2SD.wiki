@@ -35,13 +35,16 @@ You must have an ext2/ext3 partition on your sd card for this to work. If that i
 == General usage ==
 
 {{{
-Usage :
+Usage
 apps2sd version 2.2
 Needs 'on' 'off' 'status' or 'cancel' as argument.
-apps2sd on/off [-d] [-e EXTRA]/status/cancel
-apps2sd on -d will also move dalvik-cache to sd
-apps2sd off will restore apps and dalvik to phone
-apps2sd off -d will ONLY restore dalvik-cache to phone
+apps2sd on/off [--dalvik] [--data] [-e EXTRA]/status/cancel
+apps2sd on --dalvik will also move dalvik-cache to sd
+apps2sd on --data will also move dalvik-cache to sd
+apps2sd off will restore apps /data and dalvik to phone
+apps2sd off --dalvik will ONLY restore dalvik-cache to phone
+apps2sd off --data will ONLY restore data to phone
+apps2sd off --dalvik and --data are exclusive
 -e EXTRA will check if there will be a leat EXTRA Kb of free space after move
 by default EXTRA=20Mb
 apps2sd cancel will cancel pending operations
@@ -75,8 +78,15 @@ On reboot system will automatically move your apps to the sdcard, then it will r
 *Note* : by default dalvik cache is not moved to sd for performance. 
 If you want to move the davlik-cache to sd too, use
 {{{
-apps2sd on -d
+apps2sd on --dalvik
 }}}
+
+*Note* : by default data is not moved to sd. This directory contains apps specific parameters.
+If you want to move the data to sd too, use
+{{{
+apps2sd on --data
+}}}
+
 
 By default apps2sd will check wether there will be enough space on target after operation. By default operation will be done only if there will be an *extra free space* of 20Mb on target.
 You can change this value using the -e EXTRA option.
@@ -93,7 +103,7 @@ Will move apps to the sd card only if there is at least 10000 Kb free space afte
 
 === Disable apps 2 sd ===
 
-This will move your apps from sd card back to your phone internal memory.
+This will move your apps/data/dalvik from sd card back to your phone internal memory.
 Apps already present on phone will be overwritten by those on sd
 
 {{{
@@ -103,12 +113,17 @@ apps2sd off
 Then you will need to reboot your phone.
 On reboot system will automatically move your apps from the sdcard back to phone, then it will reboot. That's why you will see a fixed X, then the moving X for 2 seconds, and then acer logo.
 
-*Restore dalvik-cache to phone* : if you wnat to restore ONLY the dalvik-cache to your internal phone memory, use
+*Restore dalvik-cache to phone* : if you want to restore ONLY the dalvik-cache to your internal phone memory, use
 {{{
-apps2sd off -d
+apps2sd off --dalvik
 }}}
 
-*Note* : First boot will ta a long time because, dalvik-cache will be rebuild
+*Restore data to phone* : if you want to restore ONLY the data directory to your internal phone memory, use
+{{{
+apps2sd off --data
+}}}
+
+*Note* : First boot will take a long time because, dalvik-cache will be rebuild
 
 By default apps2sd will check wether there will be enough space on target after operation. By default operation will be done only if there will be an *extra free space* of 20Mb on target.
 You can change this value using the -e EXTRA option.
@@ -161,12 +176,12 @@ If you boot your phone without any sd and your apps are stored on sd, the system
 
 You will be able to boot but without any of your apps. 
 
-When you have restored your SD card, you can simply use "apps2sd on" or "apps2sd on -d" to reactivate.
+When you have restored your SD card, you can simply use "apps2sd on" or "apps2sd on" with appropriate options to reactivate.
 
 
 === I have some application crash after a move ===
 
-This king of little problems can happen. In this case, uninstall and reinstall the application.
+This king of little problems can happen. In this case, try to uninstall and reinstall the application. If there is too many apps, restore your nandroid backup and retry.
 
 === How to cancel a pending operation ? ===
 
