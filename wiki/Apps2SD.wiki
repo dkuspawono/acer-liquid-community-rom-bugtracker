@@ -81,13 +81,13 @@ apps2sd on
 Then you will need to reboot your phone.
 On reboot system will automatically move your apps to the sdcard, then it will reboot. That's why you will see a fixed X, then the moving X for 2 seconds, and then acer logo.
 
-*Note* : by default dalvik cache is not moved to sd for performance. 
+*Note* : by default dalvik cache is not moved to sd for performance. *Moving dalvik cache to sd card will make rom really slower*
 If you want to move the davlik-cache to sd too, use
 {{{
 apps2sd on --dalvik
 }}}
 
-*Note* : by default data is not moved to sd. This directory contains apps specific parameters.
+*Note* : by default data is not moved to sd. This directory contains apps specific parameters. *Moving data to sd card will make rom really slower*
 If you want to move the data to sd too, use
 {{{
 apps2sd on --data
