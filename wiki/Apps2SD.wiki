@@ -128,7 +128,7 @@ On reboot system will automatically move your apps from the sdcard back to phone
 apps2sd off --dalvik
 }}}
 
-*Restore data to phone* : if you want to restore ONLY the data directory to your internal phone memory, use
+*Restore data to phone* : if you want to restore ONLY the data directory to your internal phone memory, (this may produce crash) use
 {{{
 apps2sd off --data
 }}}
