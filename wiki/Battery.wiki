@@ -1,3 +1,4 @@
+#labels Featured
 = Here are tips to extend the battery life as long as it can. =
 
  * Discharge phone until it won't turn on, then recharge it off until full charge. Leave it like that for two hours. 
