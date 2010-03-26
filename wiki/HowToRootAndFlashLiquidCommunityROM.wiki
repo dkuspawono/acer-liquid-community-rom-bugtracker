@@ -52,9 +52,9 @@ Boot your phone in normal mode and check that usb debugging is enabled in settin
 
 *3)* Reboot you phone is bootloader mode using reboot-bootloader-windows.bat" (windows) or launch "sh reboot-bootloader-linux.sh, or adb reboot bootloader
 
-*4)* Run the "install-superboot-windows.bat" (windows) or "sh install-superboot-linux.sh" (linux)
+*4)* Run the "install-recovery-windows.bat" (windows) or "sh install-recovery-linux.sh" (linux)
 
-This will install the root app and a custom recovery and reboot your device.
+This will install a custom recovery and reboot your device.
 
 *5)* Wait until it's booted and then put our latest ROM .zip into the root of the SDCard. To access you sd card from your computer, slide down the notification bar and choose the appropriate item.
 
