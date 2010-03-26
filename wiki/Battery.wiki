@@ -1,4 +1,4 @@
-#summary Thips to extend battery life
+#summary Tips to extend battery life
 #labels Featured
 
 = Here are tips to extend the battery life as long as it can. =
