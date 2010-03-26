@@ -15,7 +15,7 @@ http://www.megaupload.com/?d=EF2QNANO Acer A1 Download Tool
 http://rapidshare.com/files/362960867/Superboot.zip Superboot
 </wiki:comment>
 
-http://code.google.com/p/acer-liquid-community-rom-bugtracker/downloads/list Superboot.zip
+http://acer-liquid-community-rom-bugtracker.googlecode.com/files/Superboot.zip Superboot.zip
 
 
 Our latest ROM, look for it here: 
