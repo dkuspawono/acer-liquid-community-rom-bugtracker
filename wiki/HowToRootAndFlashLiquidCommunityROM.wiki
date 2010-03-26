@@ -38,23 +38,28 @@ Don't interrupt this process!!
 
 === Your current version is android 2.1 or you have just followed the previous chapter ===
 
+
 *1)*
 Unpack the Superboot.zip.
 
-*2)* Reboot you phone is bootloader mode. 
+*2)* 
+Boot your phone in normal mode and check that usb debugging is enabled in settings/Apps/Developpement
 
-*3)* Run the "Superboot.bat" (windows) or "sh Superboot.sh" (linux)
+*3)* Reboot you phone is bootloader mode using reboot-bootloader-windows.bat" (windows) or lanuch "sh reboot-bootloader-linux.sh, or adb reboot bootloader
+
+*4)* Run the "install-superboot-windows.bat" (windows) or "sh install-superboot-linux.sh" (linux)
 
 This will install the root app and a custom recovery and reboot your device.
 
-*4)* Wait until it's booted and then put our latest ROM .zip into the root of the SDCard.
+*5)* Wait until it's booted and then put our latest ROM .zip into the root of the SDCard. To access you sd card from your computer, slide down the notification bar and choose the appropriate item.
 
-*5)* Reboot in recovery mode.
-Double-Click the file "Reboot to recovery.bat" (windows) or lanuch "sh Reboot to recovery.bat" (windows), or use "adb reboot recovery" (both)
+
+*6)* Reboot in recovery mode.
+Double-Click the file "reboot-recovery-windows.bat" (windows) or lanuch "sh reboot-recovery-linux.sh, or use "adb reboot recovery" (both)
 
 Then wait until the device is rebooted into recovery.
 
-*6)* Navigate to "apply any .zip from SD" and push the menu key, and then choose the ROM and press menu again.
+*7)* Navigate to "apply any .zip from SD" and push the menu key, and then choose the ROM and press menu again.
 
 Wait for the installation to finish.
 
@@ -66,4 +71,4 @@ Congrats, you're done!
 
 In case of crash while accessing sychronization settings, you need to do a Factory reset.
 
-In case you wipe your data partition (factory reset) you need to reinstall the rom update.zip file. Just apply the zip file in recovery mode.
+In case you wipe your data partition (factory reset) and your LCR version os prior to 1.2.3, you need to reinstall the rom update.zip file. Just apply the zip file in recovery mode.
