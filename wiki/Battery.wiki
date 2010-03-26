@@ -1,0 +1,11 @@
+= Here are tips to extend the battery life as long as it can. =
+
+ * Discharge phone until it won't turn on, then recharge it off until full charge. Leave it like that for two hours. 
+ * Repeat this process about 3-6 times a month to get maximum usage. 
+{{{Also, to quickly kill battery turn on Wifi/GPS/3G/Brightness to 100%/Screen never times out and leave the camera application going. This will burn it out in a matter of hours. }}}
+ * Don't let apps run. Those are slurping your battery like soda, so use Autokill and TasKiller
+ * Keep the display as low as you can have it depending on the light situation.
+ * Don't use the phone if it is hot! Let it cool before use to save battery (batteries last longer when cool than when hot).
+ * Use the camera sparingly! Take a picture, go home, TasKill the app quickly. The camera can deplete battery life by 20% every hour.
+ * Don't use the phone right after a healthy, full charge or after turning it on. Right then it's getting syncing, apps, network, 3G, wifi, GPS, etc together, so leave it alone for about two minutes (five is best) before use.
+ * clear application cache (found in the Manage Applications in settings)
