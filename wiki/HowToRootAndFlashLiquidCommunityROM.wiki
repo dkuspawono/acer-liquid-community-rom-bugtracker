@@ -77,3 +77,20 @@ Congrats, you're done!
 In case of crash while accessing sychronization settings, you need to do a Factory reset.
 
 In case you wipe your data partition (factory reset) and your LCR version os prior to 1.2.3, you need to reinstall the rom update.zip file. Just apply the zip file in recovery mode.
+
+== Bootloader mode ==
+
+If one of the script just keep blocked on 'waiting for device' and you phone is connected, just control that it is booted in bootloder mode.
+It a black scrren with a white moving-line on top.
+
+Here is the button conbination to force the boot in fastboot mode.
+
+# Unplug the phone from usb
+# Press Volume Up + Camera button + Power button
+# The phone will vibrate twice but stay turned off
+# Take the battery out, and plug the phone into the computer again using the usb cable.
+# Phone will boot in bootloader mode
+
+If you don't see this and the phone turns back on as normal, try it again.
+
+#replace the battery.
