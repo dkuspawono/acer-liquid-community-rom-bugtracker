@@ -41,18 +41,20 @@ Don't interrupt this process!!
 *1)*
 Unpack the Superboot.zip.
 
-*2)* Run the "Superboot.bat" (windows) or "sh Superboot.sh" (linux)
+*2)* Reboot you phone is bootloader mode. 
+
+*3)* Run the "Superboot.bat" (windows) or "sh Superboot.sh" (linux)
 
 This will install the root app and a custom recovery and reboot your device.
 
-*3)* Wait until it's booted and then put our latest ROM .zip into the root of the SDCard.
+*4)* Wait until it's booted and then put our latest ROM .zip into the root of the SDCard.
 
-*4)* Reboot in recovery mode.
+*5)* Reboot in recovery mode.
 Double-Click the file "Reboot to recovery.bat" (windows) or lanuch "sh Reboot to recovery.bat" (windows), or use "adb reboot recovery" (both)
 
 Then wait until the device is rebooted into recovery.
 
-*5)* Navigate to "apply any .zip from SD" and push the menu key, and then choose the ROM and press menu again.
+*6)* Navigate to "apply any .zip from SD" and push the menu key, and then choose the ROM and press menu again.
 
 Wait for the installation to finish.
 
