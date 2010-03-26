@@ -64,7 +64,9 @@ Double-Click the file "reboot-recovery-windows.bat" (windows) or lanuch "sh rebo
 
 Then wait until the device is rebooted into recovery.
 
-*7)* Navigate to "apply any .zip from SD" and push the menu key, and then choose the ROM and press menu again.
+*7)* Choose wipe data (factory/reset). Phone will reboot in recovery
+
+*8)* Navigate to "apply any .zip from SD" and push the menu key, and then choose the ROM and press menu again.
 
 Wait for the installation to finish.
 
