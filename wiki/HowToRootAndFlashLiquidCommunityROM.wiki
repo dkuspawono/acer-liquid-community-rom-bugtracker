@@ -85,12 +85,12 @@ It a black scrren with a white moving-line on top.
 
 Here is the button conbination to force the boot in fastboot mode.
 
-# Unplug the phone from usb
-# Press Volume Up + Camera button + Power button
-# The phone will vibrate twice but stay turned off
-# Take the battery out, and plug the phone into the computer again using the usb cable.
-# Phone will boot in bootloader mode
+ # Unplug the phone from usb
+ # Press Volume Up + Camera button + Power button
+ # The phone will vibrate twice but stay turned off
+ # Take the battery out, and plug the phone into the computer again using the usb cable.
+ # Phone will boot in bootloader mode
 
 If you don't see this and the phone turns back on as normal, try it again.
 
-#replace the battery.
+ # replace the battery.
