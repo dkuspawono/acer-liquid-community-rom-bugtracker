@@ -3,7 +3,7 @@
 
 = IMPORTANT NOTE=
 
-*It is always safer to do a *nandroid backup (with ext parition)* before applying any on these operations on your system.*
+*It is always safer to do a *nandroid backup (with ext parition)* before applying any of these operations on your system.*
 
 Operations can take a very long time. While boot animation is still moving, don't worry. See last question for infos.
 
@@ -87,7 +87,7 @@ If you want to move the davlik-cache to sd too, use
 apps2sd on --dalvik
 }}}
 
-*Note* : by default data is not moved to sd. This directory contains apps specific parameters. *Moving data to sd card will make rom really slower*
+*Note* : by default data is not moved to sd. This directory contains apps specific parameters. *Moving data to sd card will make rom really slower* It is not recommanded.
 If you want to move the data to sd too, use
 {{{
 apps2sd on --data
