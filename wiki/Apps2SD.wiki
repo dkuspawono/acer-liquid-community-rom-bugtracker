@@ -9,7 +9,7 @@ Operations can take a very long time. While boot animation is still moving, don'
 
 You must at least shutdown the phone once beetween 2 operations.
 
-After a move, you will have to re-add your widgets to you desktop. Simply trash them, and readd them.
+After a move, you will have to re-add your widgets to you desktop. Simply trash them, and readd them. If one app crash, try to uninstall and reinstall the application
 
 
 {{{
