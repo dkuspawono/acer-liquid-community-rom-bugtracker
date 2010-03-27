@@ -31,6 +31,11 @@ The main advantage of this method is to increase the number of apps you can inst
 
 If you don't have space problems on you phone or don't frequently flash your phone, you don't really need this. You must know that if your apps are stored on sd, and the sd card is not present on boot, you will not have any apps. Fortunatly this case is now catched and the phone will boot !
 
+So if you need space on phone
+ # move apps to sd (if that's not enough)
+ # move dalvik to sd (will free a little more space)
+ # move data to sd (not recommanded and won't be required)
+
 == Requirements ==
 
 LCR 1.2.3+ 
