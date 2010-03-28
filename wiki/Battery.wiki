@@ -12,3 +12,4 @@
  * Use the camera sparingly! Take a picture, go home, TasKill the app quickly. The camera can deplete battery life by 20% every hour.
  * Don't use the phone right after a healthy, full charge or after turning it on. Right then it's getting syncing, apps, network, 3G, wifi, GPS, etc together, so leave it alone for about two minutes (five is best) before use.
  * Clear application cache frequently (found in the Settings/Applications/ for each app that use cache). Huge cache take longer to refresh. 
+ * Disable 3G networks when you don't need them.
