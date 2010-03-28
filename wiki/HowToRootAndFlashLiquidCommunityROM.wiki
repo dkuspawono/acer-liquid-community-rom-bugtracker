@@ -44,7 +44,8 @@ Don't interrupt this process!!
 === Your current version is android 2.1 or you have just followed the previous chapter ===
 
 {{{
-You already have installed the liquid e bin file. If that's not the case, follow first step
+You already have installed the liquid e bin file. 
+If that's not the case, follow first step
 }}}
 
 
