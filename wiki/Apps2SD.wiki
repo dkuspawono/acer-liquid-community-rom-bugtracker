@@ -136,18 +136,18 @@ apps2sd off --dalvik
 == Warning ==
 
 
-Don't use {{{
+Don't use 
+{{{
 apps2sd off --data
 }}}
- or you will lose your apps
-use 
+Or you will lose your apps
+Use 
 {{{
 apps2sd off
 }}}
 instead
 
 This will be fixed in 1.2.4
-
 
 
 
