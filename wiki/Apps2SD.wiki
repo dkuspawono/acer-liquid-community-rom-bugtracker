@@ -53,16 +53,16 @@ apps2sd on --dalvik will also move dalvik-cache to sd
 apps2sd on --data will also move dalvik-cache to sd
 apps2sd off will restore apps /data and dalvik to phone
 apps2sd off --dalvik will ONLY restore dalvik-cache to phone
-<wiki:comment>
-apps2sd off --data will ONLY restore data to phone
-apps2sd off --dalvik and --data are exclusive
-</wiki:comment>
 -e EXTRA will check if there will be a leat EXTRA Kb of free space after move
 by default EXTRA=20Mb
 apps2sd cancel will cancel pending operations
 
 }}}
 
+<wiki:comment>
+apps2sd off --data will ONLY restore data to phone
+apps2sd off --dalvik and --data are exclusive
+</wiki:comment>
 
 == How to ==
 
