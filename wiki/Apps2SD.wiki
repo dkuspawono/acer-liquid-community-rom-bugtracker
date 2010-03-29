@@ -133,10 +133,31 @@ On reboot system will automatically move your apps from the sdcard back to phone
 apps2sd off --dalvik
 }}}
 
+== Warning ==
+
+
+Don't use {{{
+apps2sd off --data
+}}}
+ or you will lose your apps
+use 
+{{{
+apps2sd off
+}}}
+instead
+
+This will be fixed in 1.2.4
+
+
+
+
+<wiki:comment>
 *Restore data to phone* : if you want to restore ONLY the data directory to your internal phone memory, (this may produce crash) use
 {{{
 apps2sd off --data
 }}}
+</wiki:comment>
+
 
 *Note* : First boot will take a long time because, dalvik-cache will be rebuild
 
