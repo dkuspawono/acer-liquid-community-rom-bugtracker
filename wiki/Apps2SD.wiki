@@ -147,15 +147,16 @@ apps2sd off
 }}}
 instead
 
-This will be fixed in 1.2.4
-
-
+*This will be fixed in 1.2.4*
 
 <wiki:comment>
+
 *Restore data to phone* : if you want to restore ONLY the data directory to your internal phone memory, (this may produce crash) use
+
 {{{
 apps2sd off --data
 }}}
+
 </wiki:comment>
 
 
