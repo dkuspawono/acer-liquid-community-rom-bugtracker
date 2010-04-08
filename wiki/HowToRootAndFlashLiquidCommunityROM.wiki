@@ -5,7 +5,14 @@
 
 == Requirements: ==
 
+<wiki:comment>
+old bin
 http://www.megaupload.com/?d=5RC8AM1F ACER_LiquidE...bin
+</wiki:comment>
+
+*Since LCR 1.3 you nedd to use the new bin file. If you are using the old one, you have to reflash the new bin first*
+
+http://www.mediafire.com/?eityv5dynnn Acer_LiquidE_0.008.06_EMEA_GEN1
 
 http://www.megaupload.com/?d=E5PTHL3O Acer Liquid drivers for Windows
 
