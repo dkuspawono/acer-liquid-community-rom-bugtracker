@@ -30,9 +30,8 @@ http://code.google.com/p/acer-liquid-community-rom-bugtracker/downloads/list
 
 == How to install ==
 
-{{{
-Note that if you use the superboot.zip, it will install an old version of malez recovery image. Check here http://code.google.com/p/acer-liquid-malez-recovery/ to benefit of latest enhancements
-}}}
+* Note that if you use the superboot.zip, it will install an old version of malez recovery image. Check here http://code.google.com/p/acer-liquid-malez-recovery/ to benefit of latest enhancements *
+===
 
 === Your current liquid android version is 1.6 (not 2.1) ===
 
