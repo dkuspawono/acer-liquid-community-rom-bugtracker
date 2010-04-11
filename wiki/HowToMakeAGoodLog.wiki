@@ -3,7 +3,7 @@
 
 = Requirements =
 
-LCR 1.2+
+LCR 1.2+ for log-debug
 
 = log-debug explanation =
 
@@ -73,3 +73,8 @@ The logs will show up on the SDCard root as :
 
 Upload them zipped together and attach them to your bugreport.
 Thanks :)
+
+= SendLog =
+
+You can also you send log (available from market) and included since LCR 1.3.
+When a crash occurs in an application, launch Sendlog app, choose time, send it.
