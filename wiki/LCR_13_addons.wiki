@@ -1,6 +1,7 @@
 #labels Featured
 #LCR 1.3 addons
 
+=There seems to be a bug with wifi access, dowload stopped. Investigating= 
 <table>
 <tr>
 <td>
