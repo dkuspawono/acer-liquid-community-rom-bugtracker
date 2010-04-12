@@ -18,6 +18,10 @@ This package can be applied on top of the LCR 1.3 rom
   * NemoPlayer
   * Dimmer (auto brightness ajust)
 
+= Animated wallpapers = 
+
+If you encouter problems with Earth wallpaper, configure it to work in foreground
+
 = Change default launcher =
 
 The rom will let you choose you launcher until you have checked the "use by default" 
