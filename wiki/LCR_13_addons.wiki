@@ -1,12 +1,14 @@
 #labels Deprecated
 #LCR 1.3 addons
-= LCR 1.3 addons =
-
-This package can be applied on top of the LCR 1.3 rom
 
 <table>
 <tr>
 <td>
+
+= LCR 1.3 addons =
+
+This package can be applied on top of the LCR 1.3 rom
+
 = Contents =
 
   * clock / wether widget
