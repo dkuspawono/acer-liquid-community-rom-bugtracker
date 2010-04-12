@@ -28,7 +28,7 @@ The rom will let you choose you launcher until you have checked the "use by defa
 
 If you want to change the default launcher used by the rom.
 
-Use default stock laucher with mutlimedia widget and favorites bu acer
+Use default stock laucher with *mutlimedia widget and favorites by acer*
 
 {{{ 
 adb shell launcher stock 
