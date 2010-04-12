@@ -15,12 +15,6 @@ This package can be applied on top of the LCR 1.3 rom
   * Original launcher with app/photo launcher (use adb launcher stock/helixir to change)
   * NemoPlayer
   * Dimmer (auto brightness ajust)
-</td>
-<td>
-http://acer-liquid-community-rom-bugtracker.googlecode.com/files/LCR_1.3_addons.jpg
-</td>
-</tr>
-</table>
 
 = Change default launcher =
 
@@ -38,3 +32,10 @@ Use helix as default launcher
 {{{ 
 adb shell launcher helixir 
 }}}
+
+</td>
+<td>
+http://acer-liquid-community-rom-bugtracker.googlecode.com/files/LCR_1.3_addons.jpg
+</td>
+</tr>
+</table>
