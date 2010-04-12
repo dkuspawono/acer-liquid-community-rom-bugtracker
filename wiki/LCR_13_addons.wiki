@@ -16,7 +16,7 @@ This package can be applied on top of the LCR 1.3 rom
 
 = Change default launcher =
 
-The rom will let you choose you laucher until you have checked the "use by default" 
+The rom will let you choose you launcher until you have checked the "use by default" 
 
 If you want to change the default launcher used by the rom.
 
