@@ -21,7 +21,12 @@ The rom will let you choose you laucher until you have checked the "use by defau
 If you want to change the default launcher used by the rom.
 
 Use default stock laucher with mutlimedia widget and favorites bu acer
-{{{ adb shell launcher stock }}}
+
+{{{ 
+adb shell launcher stock 
+}}}
 
 Use helix as default launcher
-{{{ adb shell launcher helixir }}}
+{{{ 
+adb shell launcher helixir 
+}}}
