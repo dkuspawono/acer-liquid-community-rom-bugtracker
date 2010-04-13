@@ -1,7 +1,7 @@
 #labels Featured
 #LCR 1.3 addons
 
-=There is a bug with wifi access when the addon package is installed. Download has been stopped. Investigating.Will be back with a fix soon. Al apologize to all that already have downloaded it. Be patient for the fix. Sorry = 
+=There is a bug with wifi access when the addon package is installed. Download has been stopped. Investigating.Will be back with a fix soon. All apologize to all that already have downloaded it. Be patient for the fix. Sorry = 
 
 <table>
 <tr>
