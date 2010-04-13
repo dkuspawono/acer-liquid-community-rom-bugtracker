@@ -1,8 +1,7 @@
 #labels Featured
 #LCR 1.3 addons
 
-=There is was a bug with addon pack v1.
-If you have installed it, simply install addon pack v2 will fix= 
+=There was a bug with addon pack v1. If you have installed it, simply install addon pack v2 to fix= 
 
 <table>
 <tr>
