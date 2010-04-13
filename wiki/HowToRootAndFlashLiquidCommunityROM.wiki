@@ -62,6 +62,8 @@ If that's not the case, follow first step
 *1)*
 Unpack the Superboot.zip.
 
+*2)* Check here http://code.google.com/p/acer-liquid-malez-recovery/ if a new revovery version is available. Put the new recovery in the unpacked directory and rename it recovery.img
+
 *2)* 
 Boot your phone in normal mode and check that usb debugging is enabled in settings/Apps/Developpement
 
