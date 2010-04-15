@@ -1,7 +1,7 @@
 #labels Featured
 #LCR 1.3 addons
 
-=There was a bug with addon pack v1 (network access). If you have installed v1 it, simply install addon pack v2 to fix= 
+=There was a bug with addon pack v1 (network access) and v2 (when no apps were installed from market before applying pack). If you have installed v1 or v2, simply install addon pack v3 to fix= 
 
 <table>
 <tr>
