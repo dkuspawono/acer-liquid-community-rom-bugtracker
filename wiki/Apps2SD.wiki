@@ -5,7 +5,7 @@
 
 *It is always safer to do a *nandroid backup (with ext parition)* before applying any of these operations on your system.*
 
-If your recovery allow you to apply this oparation, it's safer to use it as system will be offline during operation. Malez recovery allow it since 0.4
+If your *recovery* allows you to apply this oparation, it's safer to use it as system will be offline during operation. Malez recovery allow it since 0.4
 
 
 Operations can take a very long time. While boot animation is still moving, don't worry. See last question for infos.
