@@ -16,6 +16,7 @@ http://www.megaupload.com/?d=5RC8AM1F ACER_LiquidE...bin
 *Since LCR 1.4 you need to use the new bin file. If you are using the old one (Baseband A1-03.05.02 or A1-03.10.03), you have to reflash the new bin first (Baseband A1-03.12.01)* To know what baseband your are currently using ggo in Settings/About phone/Baseband.
 
 http://www.megaupload.com/?d=FIKQQVSU Acer_LiquidE_0.010.00_EMEA_GEN1
+
 <wiki:comment>
 http://www.mediafire.com/?eityv5dynnn Acer_LiquidE_0.008.06_EMEA_GEN1
 </wiki:comment>
