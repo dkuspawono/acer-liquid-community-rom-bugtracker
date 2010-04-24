@@ -11,7 +11,8 @@ Always launch a nandroid backup before applying any update.
 
 = LCR 1.3 addons =
 
-This package can be applied on top of the LCR 1.3 rom
+This package can be applied on top of the LCR 1.3 rom. 
+It does not work on LCR 1.4
 
 = Contents =
 
