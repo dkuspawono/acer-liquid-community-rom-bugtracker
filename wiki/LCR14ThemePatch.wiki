@@ -9,6 +9,8 @@ Both patches also included a really fast apps Launcher (Helix). You can also dow
 
 == Black Theme ==
 
-
+http://acer-liquid-community-rom-bugtracker.googlecode.com/files/blackPatch.jpg
 
 == White Theme ==
+
+http://acer-liquid-community-rom-bugtracker.googlecode.com/files/whitePatch.jpg
