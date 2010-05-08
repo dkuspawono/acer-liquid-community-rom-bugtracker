@@ -13,6 +13,7 @@ Acer_LiquidE_0.014f.01_EMEA_GEN1 http://www.megaupload.com/?d=VYJWX4UT
 Acer_LiquidE_0.014f.01_EMEA_GEN1 http://www.speedyshare.com/files/22311663/...1_EMEA_GEN1.zip 
 
 LCR 1.4 was *only* for Acer_LiquidE_0.010.00_EMEA_GEN1 bin file
+
 LCR 1.3 was *only* for Acer_LiquidE_0.008.06_EMEA_GEN1 bin file
 
 
