@@ -59,7 +59,7 @@ http://code.google.com/p/acer-liquid-community-rom-bugtracker/downloads/list
 
 == How to install ==
 
-= Important : If you have used apps2sd before installing, always do a WIPE SD in the sdcard menu of the recovery flashing LCR =
+= Important : If you have used apps2sd before installing, always do a WIPE SD in the sdcard menu of the recovery before flashing LCR =
 
 * Note that if you use the superboot.zip, it will install an old version of malez recovery image that may not work with your bin file. Check here http://code.google.com/p/acer-liquid-malez-recovery/ to benefit of latest enhancements *
 ===
