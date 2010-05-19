@@ -13,6 +13,8 @@ LCR 1.5 was *only* for Acer_LiquidE_0.014f.01_EMEA_GEN1 bin file.
 
 *LCR 1.6 is based on Acer_LiquidE_1.100.05_EMEA_GEN1 bin file but can be flashed on top of 0.014f bin file or 0.016 too. Acer_LiquidE_1.100.05_EMEA_GEN1 is recommanded (baseband A1-04.02.01).
 
+=== bin file ===
+
 Acer_LiquidE_1.100.05_EMEA_GEN1 http://www.megaupload.com/?d=MM62W37I
 
 Acer_LiquidE_1.100.05_EMEA_GEN1 http://rapidshare.com/files/386463804/Acer_LiquidE_1.100.05_EMEA_GEN1_2fe3feb1f695fe0b8e22c09ae14544fd.bin.zip
@@ -43,6 +45,9 @@ http://www.4shared.com/file/0pt2IgPK/Acer_LiquidE_001000_EMEA_GEN1_.html Acer_Li
 <wiki:comment>
 http://www.mediafire.com/?eityv5dynnn Acer_LiquidE_0.008.06_EMEA_GEN1
 </wiki:comment>
+
+=== Drivers ===
+
 http://www.megaupload.com/?d=E5PTHL3O Acer Liquid drivers for Windows (downlaod provided in acer support webpage do not always work)
 
 http://www.megaupload.com/?d=EF2QNANO Acer A1 Download Tool
@@ -50,6 +55,8 @@ http://www.megaupload.com/?d=EF2QNANO Acer A1 Download Tool
 <wiki:comment>
 http://rapidshare.com/files/362960867/Superboot.zip Superboot
 </wiki:comment>
+
+=== Superboot (don't flash the boot.img) ===
 
 http://acer-liquid-community-rom-bugtracker.googlecode.com/files/Superboot.zip Superboot.zip
 
