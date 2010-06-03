@@ -1,7 +1,7 @@
 #labels Featured
 #How to install provided patches
 
-All files describes here can be found in the downloads section
+All files described here can be found in the downloads section http://code.google.com/p/acer-liquid-community-rom-bugtracker/downloads/list
 
 = How to change you theme =
 
