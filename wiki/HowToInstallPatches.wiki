@@ -22,10 +22,11 @@ http://acer-liquid-community-rom-bugtracker.googlecode.com/files/whitePatch.jpg
 = How to change the touch screen sensitivity =
 
 The patch provided allow to increase the screen sensivity. It is provided in two different form :
-- a batch file (can be customized)
-- an update.zip (easier)
+  * a batch file (can be customized)
+  * an update.zip (easier)
 
 == How to apply patch ==
+
 === Batch file sensitivity_LCR1.6_Shreps(batch file).zip ===
 
 
@@ -36,10 +37,10 @@ It works under windows and requires that you have adb installed on you computer 
 
 Note that if your adb binanry in name adb-window.exe for exemple, you nedd to modifier the bat file to match your correct binary name.
 
-- Put both 2 file in the same directory as your adb tool
-- Plug your phone on USB
-- Under Windows Vista or Seven, right click on sensitivity_install_LCR1.6 => run as adminstrator, otherwise jsut click on it
-- Script will ask you the sensitivity level you want (25 is a good value). The less the value is, the more the sensibility is. Don't set less than 20
+  * Put both 2 file in the same directory as your adb tool
+  * Plug your phone on USB
+  * Under Windows Vista or Seven, right click on sensitivity_install_LCR1.6 => run as adminstrator, otherwise jsut click on it
+  * Script will ask you the sensitivity level you want (25 is a good value). The less the value is, the more the sensibility is. Don't set less than 20
 
 
 === update.zip file LCR_1.6_sensitivity_patch(no sign).zip ===
@@ -49,12 +50,12 @@ Value is fixed to 25 (recommanded)
 
 requires : malez recovery
 
-- Put the file on the root of your sdcard
-- reboot in recovery
-- flash/test menu
-- apply update.zip NO SIGN CHECK
-- select sensitivity_LCR1.6_Shreps(batch file).zip
-- install
+  * Put the file on the root of your sdcard
+  * reboot in recovery
+  * flash/test menu
+  * apply update.zip NO SIGN CHECK
+  * select sensitivity_LCR1.6_Shreps(batch file).zip
+  * install
 
 == Change screen sensitivity when patch had been installed / Uninstallt the patch ==
 
