@@ -1,0 +1,56 @@
+#labels Featured
+#How to install provided patches
+
+All files describes here can be found in the downloads section
+
+= How to change you theme =
+
+By default the theme is a black one but you can revert to standard white one.
+
+Install using the recovery in the same way as you have installed LCR_XXX-update.zip
+  * LCR-1.6-white.patch.zip  (the white theme)
+  * LCR-1.6-black.patch.zip  (the black theme - rom standard theme)
+
+= How to change the touch screen sensitivity =
+
+The patch provided allow to increase the screen sensivity. It is provided in two different form :
+- a batch file (can be customized)
+- an update.zip (easier)
+
+== Batch file sensitivity_LCR1.6_Shreps(batch file).zip ==
+
+
+requires : windows computer + drivers + adb
+
+
+It works under windows and requires that you have adb installed on you computer It allow you to specify the level of sensitivity you want.
+
+Note that if your adb binanry in name adb-window.exe for exemple, you nedd to modifier the bat file to match your correct binary name.
+
+- Put both 2 file in the same directory as your adb tool
+- Plug your phone on USB
+- Under Windows Vista or Seven, right click on sensitivity_install_LCR1.6 => run as adminstrator, otherwise jsut click on it
+- Script will ask you the sensitivity level you want (25 is a good value). The less the value is, the more the sensibility is. Don't set less than 20
+
+
+update.zip file LCR_1.6_sensitivity_patch(no sign).zip
+===========
+
+Value is fixed to 25 (recommanded)
+
+requires : malez recovery
+
+- Put the file on the root of your sdcard
+- reboot in recovery
+- flash/test menu
+- apply update.zip NO SIGN CHECK
+- select sensitivity_LCR1.6_Shreps(batch file).zip
+- install
+
+In both cases
+============
+
+
+To modify sensivity, re-execute the script in sensitivity_LCR1.6_Shreps(batch file).zip   and set another value. (can be done by hand to but it is easy with the bat file)
+
+To uninstall run sensitivity_uninstall_LCR1.6 in the same way
