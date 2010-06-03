@@ -83,6 +83,8 @@ Then run the setup.exe and follow the instructions.
 *2)*
 Unpack the Acer A1 Tool.
 
+**important : ** under windows Vista / 7 : choose Windows XP compatibility mode and "run as administrator
+
 Run the ACER Download Tool. Click "Browse" and select the downloaded ACER_LiquidE...bin.
 Attach your Acer Liquid and press Start. It should start flashing the stock Éclair image.
 
