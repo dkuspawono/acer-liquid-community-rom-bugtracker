@@ -86,10 +86,10 @@ Unpack the Acer A1 Tool.
 Run the ACER Download Tool. Click "Browse" and select the downloaded ACER_LiquidE...bin.
 Attach your Acer Liquid and press Start. It should start flashing the stock Éclair image.
 
-Don't interrupt this process!!
+Don't interrupt this process!! In case of communication error during flash process. You can unplug and replug usb, don't power off the phone.
 
 
-=== Your current version is android 2.1 or you have just followed the previous chapter ===
+=== You already have latest bin file for android 2.1 installed (if unsure follow first step) or you have just followed the previous chapter ===
 
 {{{
 You already have installed the liquid e bin file. 
