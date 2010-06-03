@@ -11,13 +11,22 @@ Install using the recovery in the same way as you have installed LCR_XXX-update.
   * LCR-1.6-white.patch.zip  (the white theme)
   * LCR-1.6-black.patch.zip  (the black theme - rom standard theme)
 
+== Black Theme ==
+
+http://acer-liquid-community-rom-bugtracker.googlecode.com/files/blackPatch.jpg
+
+== White Theme ==
+
+http://acer-liquid-community-rom-bugtracker.googlecode.com/files/whitePatch.jpg
+
 = How to change the touch screen sensitivity =
 
 The patch provided allow to increase the screen sensivity. It is provided in two different form :
 - a batch file (can be customized)
 - an update.zip (easier)
 
-== Batch file sensitivity_LCR1.6_Shreps(batch file).zip ==
+== How to apply patch ==
+=== Batch file sensitivity_LCR1.6_Shreps(batch file).zip ===
 
 
 requires : windows computer + drivers + adb
@@ -33,8 +42,8 @@ Note that if your adb binanry in name adb-window.exe for exemple, you nedd to mo
 - Script will ask you the sensitivity level you want (25 is a good value). The less the value is, the more the sensibility is. Don't set less than 20
 
 
-update.zip file LCR_1.6_sensitivity_patch(no sign).zip
-===========
+=== update.zip file LCR_1.6_sensitivity_patch(no sign).zip ===
+
 
 Value is fixed to 25 (recommanded)
 
@@ -47,9 +56,7 @@ requires : malez recovery
 - select sensitivity_LCR1.6_Shreps(batch file).zip
 - install
 
-In both cases
-============
-
+== Change screen sensitivity when patch had been installed / Uninstallt the patch ==
 
 To modify sensivity, re-execute the script in sensitivity_LCR1.6_Shreps(batch file).zip   and set another value. (can be done by hand to but it is easy with the bat file)
 
