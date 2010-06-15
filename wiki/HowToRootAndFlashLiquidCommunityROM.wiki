@@ -113,7 +113,7 @@ Boot your phone in normal mode and check that usb debugging is enabled in settin
 
 This will install a custom recovery and reboot your device.
 
-*5)* Wait until it's booted and then put our latest ROM .zip into the root of the SDCard. To access you sd card from your computer, slide down the notification bar and choose the appropriate item.
+*5)* Wait until it's booted and then put our latest ROM .zip into the root of the SDCard. To access you sd card from your computer, slide down the notification bar and choose the appropriate item.(It must be something like "Connected to an usb cable, activate to copy file")
 
 
 *6)* Reboot in recovery mode.
