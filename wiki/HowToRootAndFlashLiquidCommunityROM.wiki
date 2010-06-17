@@ -5,11 +5,14 @@
 
 == Requirements: ==
 
+<wiki:comment>
 LCR 1.4 was *only* for Acer_LiquidE_0.010.00_EMEA_GEN1 bin file
 
 LCR 1.3 was *only* for Acer_LiquidE_0.008.06_EMEA_GEN1 bin file
 
 LCR 1.5 was *only* for Acer_LiquidE_0.014f.01_EMEA_GEN1 bin file. 
+
+</wiki:comment>
 
 *LCR 1.6 is based on Acer_LiquidE_1.100.05_EMEA_GEN1 bin file but can be flashed on top of 0.014f bin file or 0.016 too. Acer_LiquidE_1.100.05_EMEA_GEN1 is recommanded (baseband A1-04.02.01).
 
@@ -113,7 +116,10 @@ Boot your phone in normal mode and check that usb debugging is enabled in settin
 
 This will install a custom recovery and reboot your device.
 
-*5)* Wait until it's booted and then put our latest ROM .zip into the root of the SDCard. To access you sd card from your computer, slide down the notification bar and choose the appropriate item.(It must be something like "Connected to an usb cable, activate to copy file")
+*5)* Wait until it's booted and then put our latest ROM .zip into the root of the SDCard. You will find our latest rom in the [http://code.google.com/p/acer-liquid-community-rom-bugtracker/downloads/list download section] of this site. 
+Rom files are name LCR_XXX-signed.zip where XXX is the version number (ie 1.6 or 1.7)
+
+To access you sd card from your computer, slide down the notification bar and choose the appropriate item.(It must be something like "Connected to an usb cable, activate to copy file")
 
 
 *6)* Reboot in recovery mode.
