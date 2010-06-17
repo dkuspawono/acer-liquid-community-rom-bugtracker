@@ -116,14 +116,14 @@ Boot your phone in normal mode and check that usb debugging is enabled in settin
 
 This will install a custom recovery and reboot your device.
 
-*5)* Wait until it's booted and then put our latest ROM .zip into the root of the SDCard. You will find our latest rom in the [http://code.google.com/p/acer-liquid-community-rom-bugtracker/downloads/list download section] of this site. 
-Rom files are name LCR_XXX-signed.zip where XXX is the version number (ie 1.6 or 1.7)
+*5)* Wait until it's booted and then put our latest ROM .zip into the root of the SDCard. You will find our latest rom in the [http://code.google.com/p/acer-liquid-community-rom-bugtracker/downloads/list download section] of this site and is about 80 Mo.
+Rom files are named LCR_XXX-signed.zip where XXX is the version number (ie 1.6 or 1.7)
 
 To access you sd card from your computer, slide down the notification bar and choose the appropriate item.(It must be something like "Connected to an usb cable, activate to copy file")
 
 
 *6)* Reboot in recovery mode.
-Double-Click the file "reboot-recovery-windows.bat" (windows) or lanuch "sh reboot-recovery-linux.sh, or use "adb reboot recovery" (both)
+Double-Click the file "reboot-recovery-windows.bat" (windows) or launuch "sh reboot-recovery-linux.sh, or use "adb reboot recovery" (both)
 
 Then wait until the device is rebooted into recovery.
 
