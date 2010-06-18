@@ -110,26 +110,25 @@ Unpack the Superboot.zip.
 *2)* 
 Boot your phone in normal mode and check that usb debugging is enabled in settings/Apps/Developpement
 
-*3)* Reboot you phone is bootloader mode using reboot-bootloader-windows.bat" (windows) or launch "sh reboot-bootloader-linux.sh, or adb reboot bootloader
-
-*4)* Run the "install-recovery-windows.bat" (windows) or "sh install-recovery-linux.sh" (linux)
-
-This will install a custom recovery and reboot your device.
-
-*5)* Wait until it's booted and then put our latest ROM .zip into the root of the SDCard. You will find our latest rom in the [http://code.google.com/p/acer-liquid-community-rom-bugtracker/downloads/list download section] of this site and is about 80 Mo.
+*3)* Put our latest ROM .zip into the root of the SDCard. You will find our latest rom in the [http://code.google.com/p/acer-liquid-community-rom-bugtracker/downloads/list download section] of this site and is about 80 Mo.
 Rom files are named LCR_XXX-signed.zip where XXX is the version number (ie 1.6 or 1.7)
 
 To access you sd card from your computer, slide down the notification bar and choose the appropriate item.(It must be something like "Connected to an usb cable, activate to copy file")
 
+*4)* Reboot you phone is bootloader mode using reboot-bootloader-windows.bat" (windows) or launch "sh reboot-bootloader-linux.sh, or adb reboot bootloader
+
+*5)* Run the "install-recovery-windows.bat" (windows) or "sh install-recovery-linux.sh" (linux)
+
+This will install a custom recovery and reboot your device.
 
 *6)* Reboot in recovery mode.
-Double-Click the file "reboot-recovery-windows.bat" (windows) or launuch "sh reboot-recovery-linux.sh, or use "adb reboot recovery" (both)
+Double-Click the file "reboot-recovery-windows.bat" (windows) or launch "sh reboot-recovery-linux.sh, or use "adb reboot recovery" (both)
 
 Then wait until the device is rebooted into recovery.
 
-*7)* Choose wipe data (factory/reset). Phone will reboot in recovery
+*8) Choose "wipe" / "wipe data/factory reset" with menu button and apply with home button. Go back to main menu with < button.
 
-*8)* Navigate to "apply any .zip from SD" and push the menu key, and then choose the ROM and press menu again.
+*9)* Navigate to "flash/test menu" / "apply any .zip from SD" and push the menu key, and then choose the ROM and press menu again. Press home to start flashing
 
 Wait for the installation to finish.
 
