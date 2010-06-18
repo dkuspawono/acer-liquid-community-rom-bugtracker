@@ -126,7 +126,7 @@ Double-Click the file "reboot-recovery-windows.bat" (windows) or launch "sh rebo
 
 Then wait until the device is rebooted into recovery.
 
-*8) Choose "wipe" / "wipe data/factory reset" with menu button and apply with home button. Go back to main menu with < button.
+*8)* Choose "wipe" / "wipe data/factory reset" with menu button and apply with home button. Go back to main menu with < button.
 
 *9)* Navigate to "flash/test menu" / "apply any .zip from SD" and push the menu key, and then choose the ROM and press menu again. Press home to start flashing
 
