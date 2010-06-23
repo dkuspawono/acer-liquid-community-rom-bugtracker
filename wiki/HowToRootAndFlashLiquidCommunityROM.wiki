@@ -14,7 +14,7 @@ LCR 1.5 was *only* for Acer_LiquidE_0.014f.01_EMEA_GEN1 bin file.
 
 </wiki:comment>
 
-*LCR 1.6 is based on Acer_LiquidE_1.100.05_EMEA_GEN1 bin file but can be flashed on top of 0.014f bin file or 0.016 too. Acer_LiquidE_1.100.05_EMEA_GEN1 is recommanded (baseband A1-04.02.01).
+*LCR 1.7 is based on Acer_LiquidE_1.100.05_EMEA_GEN1 bin file but can be flashed on top of 0.014f bin file or 0.016 too. Acer_LiquidE_1.100.05_EMEA_GEN1 is recommanded (baseband A1-04.02.01).
 
 === bin file ===
 
