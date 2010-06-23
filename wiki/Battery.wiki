@@ -11,3 +11,4 @@
  * Clear application cache frequently (found in the Settings/Applications/ for each app that use cache). Huge cache take longer to refresh. 
  * Disable 3G networks when you don't need them.
  * Disable auto synchronization when you don't need it.
+ * Disable haptic feedback in settings and vibration for keyboard
