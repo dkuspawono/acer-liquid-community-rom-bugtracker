@@ -14,7 +14,8 @@ LCR 1.5 was *only* for Acer_LiquidE_0.014f.01_EMEA_GEN1 bin file.
 
 </wiki:comment>
 
-*LCR 1.7 is based on Acer_LiquidE_1.100.05_EMEA_GEN1 bin file. Flash this file 
+*LCR 1.7 is based on Acer_LiquidE_1.100.05_EMEA_GEN1 bin file. You can also update using the more rencent official acer update to eclair (1.100.39)
+
 === If you own a liquidE or already updated your liquid s100 with acer official Eclair update, you don't have to install another bin file ===
 
 === bin file ===
@@ -79,7 +80,7 @@ http://code.google.com/p/acer-liquid-community-rom-bugtracker/downloads/list
 
 === Your current liquid android version is 1.6 (not 2.1) ===
 
-**If you own a liquid E or a liquid s100 with the official update to Eclair from acer, you don't need to do this. You can also update using official update to Eclair (see acer support site) instead of following this step**
+**If you own a liquid E or a liquid s100 with the official update to Eclair from acer, you don't need to do this. You can also update using official update to Eclair (see acer support site) instead of following this step. It will be easier for you**
 
 *1)*
 Unpack the drivers.
@@ -102,7 +103,7 @@ Don't interrupt this process!! In case of communication error during flash proce
 === You already have latest bin file for android 2.1 installed (if unsure follow first step) or you have just followed the previous chapter ===
 
 {{{
-You already have installed the liquid e bin file. 
+You already have installed the liquid e bin file or installed official acer 2.1 update 
 If that's not the case, follow first step
 }}}
 
