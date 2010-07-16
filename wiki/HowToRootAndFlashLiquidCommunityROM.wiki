@@ -21,7 +21,10 @@ LCR 1.5 was *only* for Acer_LiquidE_0.014f.01_EMEA_GEN1 bin file.
 === bin file ===
 
 Now available on acer support page.
-<wiki:comment>
+http://support.acer.com/drivers_download.aspx
+
+Links to oldest bin are provided for information only or in case you can't find the bin on acer page
+
 Acer_LiquidE_1.100.05_EMEA_GEN1 http://www.megaupload.com/?d=MM62W37I
 
 Acer_LiquidE_1.100.05_EMEA_GEN1 http://rapidshare.com/files/386463804/Acer_LiquidE_1.100.05_EMEA_GEN1_2fe3feb1f695fe0b8e22c09ae14544fd.bin.zip
@@ -30,6 +33,7 @@ Acer_LiquidE_1.100.05_EMEA_GEN1 http://www.4shared.com/file/fJ2Qn_iV/Acer_Liquid
 
 Acer_LiquidE_1.100.05_EMEA_GEN1 http://www.multiupload.com/6EY2O1VMZL
 
+<wiki:comment>
 
 Acer_LiquidE_0.014f.01_EMEA_GEN1 http://www.megaupload.com/?d=VYJWX4UT
 
