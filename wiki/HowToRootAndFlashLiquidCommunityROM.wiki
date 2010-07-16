@@ -14,12 +14,14 @@ LCR 1.5 was *only* for Acer_LiquidE_0.014f.01_EMEA_GEN1 bin file.
 
 </wiki:comment>
 
-*LCR 1.7 is based on Acer_LiquidE_1.100.05_EMEA_GEN1 bin file. You can also update using the more rencent official acer update to eclair (1.100.39)
+*LCR 1.7 is based on Acer_LiquidE_1.100.39_EMEA_GEN1 bin file. We strongly advice you to update using the more recent official acer update to eclair (1.100.39)
 
 === If you own a liquidE or already updated your liquid s100 with acer official Eclair update, you don't have to install another bin file ===
 
 === bin file ===
 
+Now available on acer support page.
+<wiki:comment>
 Acer_LiquidE_1.100.05_EMEA_GEN1 http://www.megaupload.com/?d=MM62W37I
 
 Acer_LiquidE_1.100.05_EMEA_GEN1 http://rapidshare.com/files/386463804/Acer_LiquidE_1.100.05_EMEA_GEN1_2fe3feb1f695fe0b8e22c09ae14544fd.bin.zip
@@ -29,7 +31,6 @@ Acer_LiquidE_1.100.05_EMEA_GEN1 http://www.4shared.com/file/fJ2Qn_iV/Acer_Liquid
 Acer_LiquidE_1.100.05_EMEA_GEN1 http://www.multiupload.com/6EY2O1VMZL
 
 
-<wiki:comment>
 Acer_LiquidE_0.014f.01_EMEA_GEN1 http://www.megaupload.com/?d=VYJWX4UT
 
 Acer_LiquidE_0.014f.01_EMEA_GEN1 http://www.speedyshare.com/files/22311663/...1_EMEA_GEN1.zip 
