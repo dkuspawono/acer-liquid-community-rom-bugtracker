@@ -14,7 +14,7 @@ LCR 1.5 was *only* for Acer_LiquidE_0.014f.01_EMEA_GEN1 bin file.
 
 </wiki:comment>
 
-*LCR 1.7 is based on Acer_LiquidE_1.100.39_EMEA_GEN1 bin file. We strongly advice you to update using the most recent official acer update to eclair (1.100.09). It will work on 1.100.05 and 1.100.39 bin too. (1.100.39 seems to use more battery)
+*LCR 1.7 is based on Acer_LiquidE_1.100.39_EMEA_GEN1 bin file. We strongly advice you to update using the most recent official acer update to eclair (1.100.09). It will work on 1.100.05 and 1.100.39 bin too. 
 
 === If you own a liquidE or already updated your liquid s100 with acer official Eclair update, you don't have to install another bin file ===
 
