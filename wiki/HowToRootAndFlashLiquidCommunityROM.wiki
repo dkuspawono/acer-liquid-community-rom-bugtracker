@@ -23,6 +23,9 @@ LCR 1.5 was *only* for Acer_LiquidE_0.014f.01_EMEA_GEN1 bin file.
 Now available on acer support page.
 http://support.acer.com/drivers_download.aspx
 
+THIS IS THE LATEST AVAILABLE UPDATE 2.100.07 emea gen 1 (baseband 04.04.05) !
+http://global-download.acer.com/GDFiles/OS/OS/OS_Acer_2.100.07.EMEA.GEN1_A21E_A.zip?acerid=634187549971957507&Step1=Smart%20Handheld&Step2=Liquid&Step3=Liquid%20E&OS=a02&LC=it&BC=Acer&SC=EMEA_17
+
 Links to oldest bin are provided for information only or in case you can't find the bin on acer page
 
 Acer_LiquidE_1.100.05_EMEA_GEN1 http://www.megaupload.com/?d=MM62W37I
