@@ -14,9 +14,9 @@ LCR 1.5 was *only* for Acer_LiquidE_0.014f.01_EMEA_GEN1 bin file.
 
 </wiki:comment>
 
-*LCR 1.7 is based on Acer_LiquidE_1.100.39_EMEA_GEN1 bin file. We strongly advice you to update using the most recent official acer update to eclair (1.100.09). It will work on 1.100.05 and 1.100.39 bin too. 
+*LCR 1.8 is based on Acer_LiquidE_2.100.07_EMEA_GEN1 bin file. We strongly advice you to update using acert download tool. It will work on 1.100.39.
 
-=== If you own a liquidE or already updated your liquid s100 with acer official Eclair update, you don't have to install another bin file ===
+=== If you own a liquidE or already updated your liquid s100 with acer official Eclair update, you don't have to install another bin file (but you can to gain in network sensitivity/battery consumption) ===
 
 === bin file ===
 
@@ -24,6 +24,9 @@ Now available on acer support page.
 http://support.acer.com/drivers_download.aspx
 
 THIS IS THE LATEST AVAILABLE UPDATE 2.100.07 emea gen 1 (baseband 04.04.05) !
+
+http://hotfile.com/dl/65961727/0​5c8d92/2.100.07.EMEA.GEN1_A21E_bi​n.zip.html
+
 http://global-download.acer.com/GDFiles/OS/OS/OS_Acer_2.100.07.EMEA.GEN1_A21E_A.zip?acerid=634187549971957507&Step1=Smart%20Handheld&Step2=Liquid&Step3=Liquid%20E&OS=a02&LC=it&BC=Acer&SC=EMEA_17
 
 Links to oldest bin are provided for information only or in case you can't find the bin on acer page
