@@ -25,9 +25,9 @@ http://support.acer.com/drivers_download.aspx
 
 THIS IS THE LATEST AVAILABLE UPDATE 2.100.07 emea gen 1 (baseband 04.04.05) !
 
-http://hotfile.com/dl/65961727/0​5c8d92/2.100.07.EMEA.GEN1_A21E_bi​n.zip.html
+2.100.07.EMEA.GEN1_A21E_bi​n http://hotfile.com/dl/65961727/0​5c8d92/2.100.07.EMEA.GEN1_A21E_bi​n.zip.html
 
-http://global-download.acer.com/GDFiles/OS/OS/OS_Acer_2.100.07.EMEA.GEN1_A21E_A.zip?acerid=634187549971957507&Step1=Smart%20Handheld&Step2=Liquid&Step3=Liquid%20E&OS=a02&LC=it&BC=Acer&SC=EMEA_17
+2.100.07.EMEA.GEN1_A21E http://global-download.acer.com/GDFiles/OS/OS/OS_Acer_2.100.07.EMEA.GEN1_A21E_A.zip?acerid=634187549971957507&Step1=Smart%20Handheld&Step2=Liquid&Step3=Liquid%20E&OS=a02&LC=it&BC=Acer&SC=EMEA_17
 
 Links to oldest bin are provided for information only or in case you can't find the bin on acer page
 
