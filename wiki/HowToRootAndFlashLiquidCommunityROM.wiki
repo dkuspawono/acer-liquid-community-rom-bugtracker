@@ -3,6 +3,11 @@
 
 = Tutorial to install community rom =
 
+== Important == 
+
+= If you have used apps2sd, always do a WIPE SD in sdcard menu within the recovery before installing LCR =
+
+
 == Requirements: ==
 
 <wiki:comment>
