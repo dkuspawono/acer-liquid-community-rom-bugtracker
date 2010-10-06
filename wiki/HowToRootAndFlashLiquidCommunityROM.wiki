@@ -36,7 +36,7 @@ THIS IS THE LATEST AVAILABLE UPDATE 4.002.02 emea gen 1 (baseband 05.01.04) !
 
 Acer_LiquidE_4.002.02_EMEA-GEN1_05.01.04 (modified to be flashed with liquid and liquidE) http://www.multiupload.com/IJXG1DN5PI
 
-Links to oldest bin are provided for information only or in case you can't find the bin on acer page
+Links to oldest bin are provided for information only or in case you can't find the bin 
 
 2.100.07.EMEA.GEN1_A21E_bi​n http://hotfile.com/dl/65961727/0​5c8d92/2.100.07.EMEA.GEN1_A21E_bi​n.zip.html
 
