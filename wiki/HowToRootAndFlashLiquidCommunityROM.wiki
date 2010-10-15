@@ -148,7 +148,7 @@ Unpack the Superboot.zip.
 *3)* 
 Boot your phone in normal mode and check that usb debugging is enabled in settings/Apps/Developpement
 
-*4)* Put our latest ROM .zip into the root of the SDCard. You will find our latest rom in the [http://code.google.com/p/acer-liquid-community-rom-bugtracker/downloads/list download section] of this site and is about 80 Mo.
+*4)* Put our latest ROM .zip into the root of the SDCard. You will find our latest rom in the [http://lcr-team.org/v1/index.php?site=files&cat=1 download section] of our new site http://lcr-team.org (or on this site for old LCR-E (eclair) rom. Rom is about 80 Mo for eclair and 110Mo for Froyo.
 Rom files are named LCR_XXX-signed.zip where XXX is the version number (ie 1.6 or 1.7)
 
 To access you sd card from your computer, slide down the notification bar and choose the appropriate item.(It must be something like "Connected to an usb cable, activate to copy file")
